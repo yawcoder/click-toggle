@@ -7,11 +7,11 @@ closedFace.addEventListener('click', () => {
         openFace.classList.add('active');
         closedFace.classList.remove('active');
     }
-})
+});
 
 openFace.addEventListener('click', () => {
     if(closedFace.classList.contains('closed')){
         closedFace.classList.add('active');
         openFace.classList.remove('active');
     }
-})
+});
